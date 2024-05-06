@@ -1,0 +1,21 @@
+.header {
+    background-color: rgb(37, 218, 37);
+    display: flex;
+    justify-content: center;
+}
+
+.search {
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+}
+
+.city {
+     background-color: lightgray;
+     display: flex;
+}
+
+.week {
+    background-color: lightblue;
+    display: flex;
+}
