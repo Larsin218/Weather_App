@@ -15,8 +15,7 @@ body {
 
 .main-content {
     display: flex;
-    max-width: 800px;
-    margin: 20px auto;
+    margin: 20px;
     padding: 10px;
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -36,6 +35,7 @@ body {
 .details {
     flex: 2;
     padding: 10px 20px;
+
 }
 
 .search h2 {
@@ -84,6 +84,10 @@ body {
     margin-top: 10px;
 }
 
+.week h2 {
+    text-align: center;
+}
+
 .day {
     flex: 1;
     margin: 0 5px;
@@ -92,4 +96,8 @@ body {
     text-align: center;
     border: 1px solid #ddd;
     border-radius: 4px;
+}
+
+.day p {
+    text-align: left;
 }
